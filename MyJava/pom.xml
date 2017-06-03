@@ -21,5 +21,52 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+	
+	<dependency>
+    	<groupId>org.bytedeco</groupId>
+    	<artifactId>javacv-platform</artifactId>
+    	<version>1.3.2</version>
+ 	 </dependency>
+
+	<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+	<dependency>
+	    <groupId>net.sourceforge.tess4j</groupId>
+	    <artifactId>tess4j</artifactId>
+	    <version>3.3.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/de.sciss/sphinx4-core -->
+	<dependency>
+	    <groupId>de.sciss</groupId>
+	    <artifactId>sphinx4-core</artifactId>
+	    <version>1.0.0</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/de.sciss/sphinx4-data -->
+	<dependency>
+	    <groupId>de.sciss</groupId>
+	    <artifactId>sphinx4-data</artifactId>
+	    <version>1.0.0</version>
+	</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/cz.advel.jbullet/jbullet -->
+	<dependency>
+	    <groupId>cz.advel.jbullet</groupId>
+	    <artifactId>jbullet</artifactId>
+	    <version>20101010</version>
+	</dependency>
+	
+	
   </dependencies>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>com.zenjava</groupId>
+  			<artifactId>javafx-maven-plugin</artifactId>
+  			<version>8.8.3</version>
+  		</plugin>
+  	</plugins>
+  </build>
+  
 </project>
