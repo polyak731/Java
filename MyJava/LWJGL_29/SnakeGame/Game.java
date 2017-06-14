@@ -9,10 +9,7 @@ import org.lwjgl.opengl.GL11;
 
 import static org.lwjgl.opengl.GL11.*;
 
-/**
-*
-* @author Benny
-*/
+
 public class Game 
 {
 	private int N=30;
