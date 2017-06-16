@@ -22,6 +22,4 @@ public class JDBCConnection {
 		
 		if(con!=null) System.out.println("Connection succesfull");
 	}
-	
-	
 }
