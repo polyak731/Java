@@ -10,7 +10,7 @@ public class Main extends Application{
 	private Scene scene;
 	private VBox root;
 	private final double sceneWidth = 300;
-	private final double sceneHeight = 400;
+	private final double sceneHeight = 300;
 	private Display display;
 	private KeyBoard keyboard;
 	
