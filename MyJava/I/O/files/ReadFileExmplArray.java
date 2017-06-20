@@ -1,5 +1,6 @@
 package files;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -22,7 +23,6 @@ public class ReadFileExmplArray {
 		}finally{
 			closeQuitly(inFile);
 		}
-		
 	}
 	
 	public static byte[] readFullyByByte(InputStream inStream) throws IOException{
