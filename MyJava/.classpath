@@ -18,6 +18,11 @@
 	<classpathentry kind="src" path="Calculator"/>
 	<classpathentry kind="src" path="FileManager"/>
 	<classpathentry kind="src" path="Patterns"/>
+	<classpathentry kind="src" path="Simple"/>
+	<classpathentry kind="src" path="core_oop"/>
+	<classpathentry kind="src" path="UserSystem"/>
+	<classpathentry kind="src" path="procedural_core"/>
+	<classpathentry kind="src" path="Threads"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
